@@ -1,14 +1,14 @@
-import React, {Component} from 'react';
-import './App.css';
+import React from 'react';
+import Header from './components/Header/header.component';
+import TaskList from './components/TaskList/tasklist.component';
 
-class App extends Component {
-  render(){
-    return (
-      <div>
-        <h1>Todo List App</h1>
-      </div>
-    );
-  }
+const App = () => {
+  return (
+    <div>
+      <Header />
+      <TaskList />
+    </div>
+  )
 }
 
 export default App;
